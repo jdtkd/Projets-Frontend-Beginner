@@ -1,0 +1,67 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+nav {  
+    background-color: #ffffff; /* Couleur d'arrière-plan */  
+}  
+
+.navbar {  
+    flex-direction: row;
+    list-style-type: none; /* Supprime les puces de la liste */  
+    padding: 0;  
+    margin: 0;  
+    display: flex; /* Utilise Flexbox pour aligner les éléments */  
+    justify-content: flex-end; /* Aligne les éléments à droite */  
+}  
+
+.navbar li {  
+    margin-left: 20px; /* Espace entre les éléments du menu */  
+}  
+
+.navbar a {  
+    display: block; /* Permet d'utiliser toute la largeur de l'élément */  
+    color: rgb(13, 13, 13); /* Couleur du texte */  
+    padding: 14px 20px; /* Espace intérieur */  
+    text-decoration: none; /* Supprime le soulignement */  
+    transition: background-color 0.3s; /* Transition pour effet de survol */  
+}  
+
+.navbar a:hover {  
+    background-color:none; /* Change la couleur d'arrière-plan au survol */  
+}
+.logo{
+   text-align: left;
+    font-size: medium;
+    color: white; /* Couleur du texte du logo */  
+    text-decoration: none; /* Supprime le soulignement */  
+    font-size: 24px; /* Taille de la police du logo */ 
+    
+}
+.titre{
+    margin-top: 20px;
+  font-family: satisfy,cursive,sans;
+    text-align: center;
+}
+.titre h3:first-of-type{
+    color: rgb(128, 128, 146);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    size: 10px !important;
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  table {  
+    width: 100%;  
+    border-collapse: collapse;  
+  }  
+  
+  td {  
+    border: 1px solid black;  
+    padding: 8px;  
+  }
+  
